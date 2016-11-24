@@ -59,4 +59,11 @@ body
 }
 ```
 
+```css
+html {
+  -ms-touch-action: manipulation;
+  touch-action: manipulation;
+}
+```
+
 [Others](https://github.com/RubyLouvre/mobileHack)
