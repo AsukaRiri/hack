@@ -67,3 +67,5 @@ html {
 ```
 
 [Others](https://github.com/RubyLouvre/mobileHack)
+
+[创建插件](https://gist.github.com/quexer/3619237)
