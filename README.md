@@ -38,6 +38,20 @@
 <link rel="stylesheet" media="screen and (-webkit-device-pixel-ratio: 2.0)" href="retina.css" />
 ```
 
+```css
+@font-face {
+  font-family: HelveticaRoman;
+  src: url('../fonts/HelveticaLTStd-Roman.eot');
+  src: local('☺'), url('../fonts/HelveticaLTStd-Roman.woff') format('woff'), url('../fonts/HelveticaLTStd-Roman.ttf') format('truetype'), url('../fonts/HelveticaLTStd-Roman.svg') format('svg');
+}
+```
+
+```css
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-device-width: 480px) {
+}
+```
 
 ```css 
 @media screen and (-webkit-min-device-pixel-ratio: 2) {
@@ -49,6 +63,11 @@
 .bg{
   background-image: -webkit-image-set(url(tiger.png) 1x, url(tiger-2x.png) 2x);
   background-size: 400px 250px;
+}
+.bg{
+  background-size: cover;
+  -ms-behavior: url(css/backgroundsize.min.htc);
+  behavior: url(css/backgroundsize.min.htc);
 }
 ```
 
