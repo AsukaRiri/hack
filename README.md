@@ -4,11 +4,7 @@
 
 [browserhacks](http://browserhacks.com/)
 
-[phonesize](http://screensiz.es/phone)
-
 [caniuse](http://caniuse.com/)
-
-[Media Query Snippets](https://css-tricks.com/snippets/css/media-queries-for-standard-devices/)
 
 [CSS Gradient Generator](http://www.colorzilla.com/gradient-editor/)
 
